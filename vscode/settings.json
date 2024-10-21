@@ -1,0 +1,91 @@
+{
+  //SETTINGS
+  "settingsSync.keybindingsPerPlatform": false,
+  //WINDOW
+  "window.commandCenter": false,
+  "window.customTitleBarVisibility": "auto",
+  "window.titleBarStyle": "custom",
+  //EXPLORER
+  "symbols.hidesExplorerArrows": false,
+  "explorer.compactFolders": false,
+  "workbench.tree.indent": 15,
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.tree.enableStickyScroll": false,
+  "workbench.iconTheme": "symbols",
+  //EDITOR
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 13,
+  "editor.stickyScroll.scrollWithEditor": false,
+  "editor.stickyScroll.enabled": false,
+  "editor.renderLineHighlight": "gutter",
+  "editor.lineHeight": 1.5,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.suggest.showWords": false,
+  "editor.rulers": [
+    80,
+    110
+  ],
+  "workbench.colorCustomizations": {
+    "editorBracketMatch.border": "#ffffff5b"
+  },
+  "editor.renderWhitespace": "selection",
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  //TERMINAL
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.fontSize": 12,
+  //PRETTIER
+  "editor.defaultFormatter": "vscode.typescript-language-features",
+  //AUTOFIX ON SAVE
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll": "explicit"
+  },
+  "markdown-preview-enhanced.codeBlockTheme": "dark.css",
+  "markdown-preview-enhanced.previewTheme": "atom-dark.css",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  //TAILWIND
+  "tailwindCSS.includeLanguages": {
+    "javascript": "javascript",
+    "html": "HTML"
+  },
+  "prettier.tabWidth": 3,
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "errorLens.gutterIconsEnabled": true,
+  "errorLens.messageBackgroundMode": "message",
+  "git.openRepositoryInParentFolders": "always",
+  "prettier.configPath": "./.prettierrc",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "workbench.startupEditor": "none",
+  "liveServer.settings.CustomBrowser": "chrome",
+  "editor.minimap.enabled": false,
+  "workbench.colorTheme": "Ayu Mirage Bordered",
+  "window.menuBarVisibility": "compact",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+}
